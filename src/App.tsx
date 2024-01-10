@@ -1,13 +1,19 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 
 function App() {
   return (
-    <div>
-      {" "}
-      <h1 className="flex justify-center items-center h-screen font-bold text-3xl bg-blue-100 text-blue-500 px-10">
-        Hello
-      </h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/auth" element={<LoginPage />} />
+        <Route path="/dashboard" element={<Layout />}>
+          <Route index element={<ListPage />} />
+          <Route path="chat" element={<ChatPage />} />
+          <Route path="profile" element={<ProfilePage />} />
+        </Route>
+        <Route path="*" element={<Navigate to="/dashboard" />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
