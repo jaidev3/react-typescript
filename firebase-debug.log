@@ -1,0 +1,21 @@
+[debug] [2024-01-11T14:14:23.210Z] ----------------------------------------------------------------------
+[debug] [2024-01-11T14:14:23.212Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dev\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-01-11T14:14:23.212Z] CLI Version:   13.0.3
+[debug] [2024-01-11T14:14:23.212Z] Platform:      win32
+[debug] [2024-01-11T14:14:23.212Z] Node Version:  v18.18.2
+[debug] [2024-01-11T14:14:23.212Z] Time:          Thu Jan 11 2024 19:44:23 GMT+0530 (India Standard Time)
+[debug] [2024-01-11T14:14:23.213Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-11T14:14:23.216Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-11T14:14:23.216Z] > authorizing via signed-in user (jairao9817@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\personal-projects\react-typescript-todo-and-chat-app
+
